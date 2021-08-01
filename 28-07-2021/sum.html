@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    
+        <b>First number:</b><br>
+        <input type="number" id="firstnumber"><br>
+        <b> Second number: </b><br>
+        <input type="number" id="lastnumber"><br><br>
+          <input type="submit" value="Add" onclick="sum()" ><br><br><br>
+          <b>SUM:</b> <br>
+        <p id="answer"></p>
+      
+      
+    <script>
+
+        function sum(){
+            var f , s ,sum;
+             f = parseInt(document.getElementById("firstnumber").value);
+             s = parseInt(document.getElementById("lastnumber").value);
+            sum = f+s;
+            document.getElementById("answer").innerHTML = sum;
+        }
+    </script>
+
+    </body>
+</html>
+
