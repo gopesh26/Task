@@ -1,10 +1,15 @@
-const http = require('http')
-const fs = require('fs')
+const http = require('http');
+const fs = require('fs');
+const express = require('express');
+var app = express();
 
+app.get("/",function(request,response){
+response.sendFile(__dirname+"/sum.html")})
 
-const server = http.createServer((req, res) => {
-  res.writeHead(200, { 'content-type': 'text/html' })
-  fs.createReadStream('sum.html').pipe(res)
+app.get("/getsum",function(request,response){
+  var num1=parseInt(request.querry.Num1);
+  var num2=parseInt(request.querry.Num2);
+  var sum = num1+num2;
+  response.send(sum);
 })
-
-server.listen(8080);
+app.listen(8080);
