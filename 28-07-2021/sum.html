@@ -12,26 +12,16 @@
     </style>
 </head>
 <body>
-    
+        <form method ='GET' action="/getsum">
+            
         <b>First number:</b><br>
         <input type="number" id="firstnumber"><br>
         <b> Second number: </b><br>
         <input type="number" id="lastnumber"><br><br>
-          <input type="submit" value="Add" onclick="sum()" ><br><br><br>
-          <b>SUM:</b> <br>
-        <p id="answer"></p>
+        <input type="submit" value="Add"><br><br><br>   
+            
+       </form>
       
-      
-    <script>
-
-        function sum(){
-            var f , s ,sum;
-             f = parseInt(document.getElementById("firstnumber").value);
-             s = parseInt(document.getElementById("lastnumber").value);
-            sum = f+s;
-            document.getElementById("answer").innerHTML = sum;
-        }
-    </script>
 
     </body>
 </html>
