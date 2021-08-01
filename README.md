@@ -13,6 +13,7 @@ Practicals 29-07-2021
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Practicals 30-07-2021
+
 1)Make a form and validate the following fields in a form:
   Name : Only alphabets should be allowed
   Mobile number : Only numbers are allowed Entered number must be of 10 digits
