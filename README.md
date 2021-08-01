@@ -14,14 +14,14 @@ Practicals 29-07-2021
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Practicals 30-07-2021
 
-1)Make a form and validate the following fields in a form:
-  Name : Only alphabets should be allowed
-  Mobile number : Only numbers are allowed Entered number must be of 10 digits
-  Email : Email format
-  DOB : Take input type as date and disable all dates after 2002 year till today’s date and also user is not allowed to enter date after 2002 year manually in a box
-  Password :
-  Confirm Password : Must check boh the fields should be equal and if it is not equal immediately should alert “Password not matching” before moving to next field
-  Address : take textarea
-  Make sure all the fields are reuired and use placeholder attribute.
-  
+1)  Make a form and validate the following fields in a form:
+    Name : Only alphabets should be allowed
+    Mobile number : Only numbers are allowed Entered number must be of 10 digits
+    Email : Email format
+    DOB : Take input type as date and disable all dates after 2002 year till today’s date and also user is not allowed to enter date after 2002 year manually in a box
+    Password :
+    Confirm Password : Must check boh the fields should be equal and if it is not equal immediately should alert “Password not matching” before moving to next field
+    Address : take textarea
+    Make sure all the fields are reuired and use placeholder attribute.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
