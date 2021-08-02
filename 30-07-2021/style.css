@@ -1,0 +1,88 @@
+body{
+    background-color: #272015;
+    padding-left: 550px;
+    padding-top: 10px;
+}
+.form{
+    display: flex;
+    background-color: rgb(245, 233, 220);
+    position: fixed;
+    padding: 20px;
+    padding-bottom: 5px;
+    top: 110px;
+
+    border: 3px solid rgb(179, 64, 56);
+    border-radius: 15px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    align-items:flex-start;
+    width: 320px;
+    height: auto;
+         
+}
+.form:hover{
+    opacity: 1;
+}
+input{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    width:300px;
+    height:40px;
+    
+}
+input::placeholder{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-stretch: expanded;
+    font-size: 13px;
+    color: grey ;
+}
+input{
+    border: 0.5px solid white;
+}
+input:hover{
+    background-color: white;
+}
+span{
+    color:rgb(133, 0, 0);
+    font-size: small;    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left: 8px;
+}
+.one{
+    position: relative;
+    padding-left: 1px;
+    top:4px;
+}
+.title{
+    display: flex;  
+    position:fixed;
+    border-radius: 15px;
+    background-color: rgb(236, 88, 77);
+    width: 365px;
+    height: 250px;
+
+}
+#h1{
+   text-indent: 96px;
+   font-size: 50px;
+   font-weight: 700;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(245, 233, 220);
+    text-transform: uppercase;
+    
+}
+#submit{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: grey;
+}
+#submit:hover{
+    background-color:  rgb(236, 88, 77);
+    color: rgb(245, 233, 220);;
+}
+
+
+/* background: rgb(100,101,170);
+background: linear-gradient(29deg, rgba(100,101,170,1) 30%, rgba(33,60,130,1) 30%); */
