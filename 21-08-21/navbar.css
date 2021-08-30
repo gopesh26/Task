@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color:rgb(92, 92, 156);
+    width: 100%;
+    height: 60px;
+    align-content: space-between;
+    align-items:center;
+    
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    
+  }
+
+.nav a{
+  
+  font-size: large;
+  position: relative;
+  padding: 10px;
+
+}
+.nav a:hover{
+  background-color:rgb(74, 74, 126);
+}
+
+.Title{
+  position: absolute;
+  padding-left: 700px;
+}
+
+
