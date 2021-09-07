@@ -54,3 +54,5 @@ Take as many inputs as user entered in the first box, after taking 1st data, wri
 01-09-21 Reudx action dispatch task
 
 02-09-21 Redux creatSlice, ConfigureStore 
+
+06-09-21 practical example on “ref” in react
