@@ -38,21 +38,30 @@ Take some student information from user -id -name -marks After taking 1st studen
 09-08-2021 Create one form including following fields No. of information to be entered : textbox Id : auto increment Name : textbox Email : email type Mobile : number
 
 Take as many inputs as user entered in the first box, after taking 1st data, write those data into the file and do the same for remaining number of data. Once you store all data into the file, open that file in read mode and print data into the JSON format.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 16-08-2021 Store Entered form data into any of the database using node and ts
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 20-08-2021 ask Read and refer Event handling and state in React Create stepwise application like in Step 1 : Ask for personal information after pressing next from step 1, move to step 2 and onwards Step 2: Ask for hobbies Step 3: Ask for qualification And after taking all info . Display the same
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 24-08-2021 Form done using react by Components like intro,Hobby,Qualification
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 25-08-2021 Check whether one should use one state or multiple states to take form values Take three text boxes i.e. for name, number and email on click of submit display data immediate after submit but while entering another data no duplicates should be allowed in any of the field
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 30-08-2021 Practicals: hooks with react router with all four hooks 
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 31-08-2021 Use context 
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 01-09-21 Reudx action dispatch task
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 02-09-21 Redux creatSlice, ConfigureStore 
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 06-09-21 practical example on “ref” in react
