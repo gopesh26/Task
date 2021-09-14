@@ -21,8 +21,9 @@ app.post('/create',(req,res)=>{
     const city = req.body.city;
     const zip = req.body.zip;
 
-    db.query("INSERT INTO data (email,password,city,zip) VALUES(?,?,?,?);",
-    [email,pass,city,zip],(err,result)=>{
+    //db.query("INSERT INTO data (email,password,city,zip) VALUES(?,?,?,?);",[email,pass,city,zip]
+    db.query('CALL p1(@id,?,?,?,?)',[email,pass,city,zip]
+    ,(err,result)=>{
         if(err){
             console.log(err)
         }
@@ -43,6 +44,33 @@ app.get('/details',(req,res)=>{
             res.send(result);
         }
     });
+})
+
+
+app.put('/update',(req,res)=>{
+    const id = req.body.id;
+    const email = req.body.email ;
+db.query('UPDATE data set email=? WHERE id=?',[email,id],(err,result)=>{
+    if(err){
+        console.log(err)
+    }
+    else{
+        res.send(result);
+    }
+})
+
+})
+
+app.delete(`/delete/:id`,(req,res)=>{
+    const id = req.params.id;
+    db.query('DELETE FROM data WHERE id=?',id,(err,result)=>{
+        if(err){
+            console.log(err)
+        }
+        else{
+            res.send(result);
+        }
+    })
 })
 
 db.connect(function(err) {
